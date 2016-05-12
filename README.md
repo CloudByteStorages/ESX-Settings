@@ -1,6 +1,6 @@
 # ESX-Settings
 
-#### General
+###### General
 1. Ensure that the iSCSI LUNs consumed by ESX clients have blockLength=512
 2. Set Disk time out (blockingTimeoutSeconds) to 10800
 3. MTU should be 9000 for all network ports
