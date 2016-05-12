@@ -30,16 +30,15 @@ The default (fsr.maxSwitchoverSeconds) timeout value is 100 Seconds. We have to 
 
 To modify the fsr.maxSwitchoverSeconds option using the vSphere Client:
 
-1.Open vSphere Client and connect to the ESX/ESXi host or to vCenter Server.
-2.Locate the virtual machine in the inventory.
-3.Power off the virtual machine.
-4.Right-click the virtual machine and click Edit Settings.
-5.Click the Options tab.
-6.Select the Advanced: General section.
-7.Click the Configuration Parameters button.
-Note: The Configuration Parameters button is disabled when the virtual machine is powered on.
-8.From the Configuration Parameters window, click Add Row.
-9.In the Name field, enter the parameter name: fsr.maxSwitchoverSeconds =300
-10.In the Value field, enter the new timeout value in seconds (for example: 150).
-11.Click the OK buttons twice to save the configuration change.
-12.Power on the virtual machine.
+1. Open vSphere Client and connect to the ESX/ESXi host or to vCenter Server.
+2. Locate the virtual machine in the inventory.
+3. Power off the virtual machine.
+4. Right-click the virtual machine and click Edit Settings.
+5. Click the Options tab.
+6. Select the Advanced: General section.
+7. Click the Configuration Parameters button. Note: The Configuration Parameters button is disabled when the virtual machine is powered on.
+8. From the Configuration Parameters window, click Add Row.
+9. In the Name field, enter the parameter name: fsr.maxSwitchoverSeconds =300
+10. In the Value field, enter the new timeout value in seconds (for example: 150).
+11. Click the OK buttons twice to save the configuration change.
+12. Power on the virtual machine.
